@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express")
 
 const app = express()
 
@@ -17,5 +17,6 @@ app.get("/name", (req, res) => {
 app.get("/cal", (req, res) => {
 
 })
-export default app;
+
+module.exports = add;
 app.listen(3000)
